@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Quora Clone
+This project is a Quora Clone, a platform where users can register and log in to engage in discussions by posting questions and answers. It features a personalized user experience, a home page with a feed of questions, answers, and discussions, and user-friendly navigation and interaction across devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/user-attachments/assets/333ccfbb-2472-4497-ba6c-446cd694b64d)
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Registration and Login:** Secure user authentication to ensure a personalized experience.
+- **Home Page Feed:** Displays a feed of questions, answers, and discussions on various topics.
+- **Post Questions:** Users can post questions to the community.
+- **Provide Answers:** Users can provide answers to posted questions.
+- **Search Functionality:** Allows users to find relevant content and topics easily.
+- **Responsive UI/UX:** Designed for seamless navigation and interaction across all devices.
 
-## Expanding the ESLint configuration
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/c83d4e18-31a7-40bf-8f7f-e8577fd29924">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Frontend:** React.js, Tailwind CSS, Typescript
+- **Authentication:** Firebase Authentication
+- **Database:** Firestore (Firebase)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/ArghaRoy10/Quora_Clone.git
+cd quora-clone
+Install Dependencies
+npm install
+Run the Application
+npm run dev
